@@ -12,6 +12,8 @@
   <p>Number of drawn features: {{drawnItemsCount()}}</p>
 </body>
 <script src="bower_components/leaflet/dist/leaflet.js"></script>
+  <script src="bower_components/geoportal_core.js"></script>
+  
 <script src="bower_components/leaflet-draw/dist/leaflet.draw-src.js"></script>
 <script src="bower_components/angular/angular.min.js"></script>
 <script src="bower_components/angular-simple-logger/dist/angular-simple-logger.js"></script>
