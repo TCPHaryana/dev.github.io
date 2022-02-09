@@ -1,0 +1,174 @@
+.leaflet-measure-path-measurement {
+    position: absolute;
+    font-size: 10px;
+    color: black;
+    text-shadow: -1px  0 0 white,
+                 -1px -1px 0 white,
+                  0 -1px 0 white,
+                  1px -1px 0 white,
+                  1px  0 0 white,
+                  1px  1px 0 white,
+                  0  1px 0 white,
+                 -1px  1px 0 white;
+    white-space: nowrap;
+    transform-origin: 0;
+    pointer-events: none;
+}
+
+.leaflet-measure-path-measurement > div {
+    position: relative;
+    margin-top: -25%;
+    left: -50%;
+ 
+    /*background: #0080ff;*/
+    /*padding: 5px 10px;
+    border-radius: 15px;*/
+    opacity: 0.6;
+    font-weight: bold;
+    color:black;
+    /*border: 1px solid #0040ff;*/
+    font-size: 14px;
+}
+  /*.leaflet-editing-icon, .leaflet-div-icon {
+        width: 14px !important;
+        height: 14px !important;
+        border-radius: 50%;
+        margin-left: -6px !important;
+        margin-top: -6px !important;
+        background:white;
+        opacity:.5;
+        
+    }*/
+/*a.leaflet-draw-edit-edit,
+a.leaflet-draw-edit-remove,
+a.leaflet-draw-draw-polygon,
+a.leaflet-draw-draw-polyline
+ {
+    width: 100px  !important; 
+    background: blue !important;
+    background-image:none !important;
+    color:wheat;
+    display:block;
+    font-weight:bold;
+    text-align:left;
+    padding-left:8px;
+}
+
+a.leaflet-draw-draw-polyline {
+    background:red !important;
+    
+}
+a.leaflet-draw-edit-edit,
+a.leaflet-draw-edit-remove
+ {
+    
+    background:black !important;
+}*/
+/*a.leaflet-draw-edit-edit:hover,
+a.leaflet-draw-edit-remove:hover,
+a.leaflet-draw-draw-polygon:hover,
+a.leaflet-draw-draw-polyline:hover {
+    color:white;
+    background: #666;
+    text-align:left;
+}
+a.leaflet-draw-edit-edit:after{
+    content:"EDIT"
+}
+a.leaflet-draw-edit-remove:after{
+    content:"DELETE"
+}
+
+.leaflet-draw-draw-polygon:after {
+    content:"Mark Site"
+}
+.leaflet-draw-draw-polyline:after {
+    content:"Mark Frontage"
+}
+
+
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+    border: 0 !important;
+    background-clip: inherit;
+}*/
+.leaflet-draw-toolbar a {
+    background-size: 270px 40px;
+}
+.leaflet-touch .leaflet-draw-actions {
+    left: 80px;
+
+}
+
+
+        .cusTable {
+        width: 100%;
+    }
+    .cusTable td {
+        padding:3px 5px;
+        border: 1px solid #ccc;
+    }
+    .red {
+        background:tomato;
+        color:white;
+        font-weight:bold;
+    }
+    .green {
+        background:MediumSeaGreen;
+        color:white;
+        font-weight:bold;
+    }
+    .blue {
+        background:dodgerblue;
+        color:white;
+        font-weight:bold;
+    }
+.leaflet-pane,
+.leaflet-tile,
+.leaflet-marker-icon,
+.leaflet-marker-shadow,
+.leaflet-tile-container,
+.leaflet-pane > svg,
+.leaflet-pane > canvas,
+.leaflet-zoom-box,
+.leaflet-image-layer,
+.leaflet-layer {
+	position: absolute;
+	left: 0;
+	top: 0;
+	}
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        html,
+        body,
+        #map {
+            height: 100%;
+        }
+    .leaflet-control-accordionlegend-button {
+        width: 270px;
+    }
+
+    h2.accordionlegend-section-title {
+        padding: 5px;
+    }
+
+    .ui-autocomplete {
+        background: #fff;
+        cursor: pointer;
+        z-index: 10002;
+        max-width: 215px;
+        padding: 5px;
+        list-style: none;
+        color: #000;
+    }
+
+    .ui-helper-hidden-accessible {
+        display: none;
+    }
+
+    /*.leaflet-editing-icon {
+        width: 15px !important;
+        height: 15px !important;
+        border-radius: 50%;
+    }*/
